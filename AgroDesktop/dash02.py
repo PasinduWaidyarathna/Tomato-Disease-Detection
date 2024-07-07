@@ -50,7 +50,7 @@ def home_page():
     percentage_class_lb = tk.Label(home_frame, text='Percentage  : 96.46% ')
     percentage_class_lb.pack()
 
-    mydb = mysql.connector.connect(host="localhost", user="root", password="Pradeepa64@", database="agro")
+    mydb = mysql.connector.connect(host="localhost", user="root", password="your password", database="database name")
     mycursor = mydb.cursor()
    # mycursor.execute("select Name, Marks from student_marks")
     mycursor.execute("select category,value from summary ORDER BY category DESC;")
