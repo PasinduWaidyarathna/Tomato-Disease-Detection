@@ -28,7 +28,7 @@ def loginuser():
     else:
         try:
 
-            mydb=mysql.connector.connect(host='localhost',user='root',password='Pradeepa64@',database="agro")
+            mydb=mysql.connector.connect(host='localhost',user='root',password='your password',database="database name")
             mycursor=mydb.cursor()
             print("Connected to Database")
 
