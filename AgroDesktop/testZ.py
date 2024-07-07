@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 mydb = mysql.connector.connect(host="localhost",
                                user="root",
-                               password="Pradeepa64@",
-                               database="agro")
+                               password="your password",
+                               database="database name")
 mycursor = mydb.cursor()
 
 # Fetching Data From mysql to my python program
