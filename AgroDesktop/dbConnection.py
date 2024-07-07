@@ -4,8 +4,8 @@ def connect_to_mysql():
     # Replace the following with your MySQL database information
     host = 'localhost'
     user = 'root'
-    password = 'Pradeepa64@'
-    database = 'agro'
+    password = 'your password'
+    database = 'database name'
 
     try:
         # Create a connection to the MySQL server
